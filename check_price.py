@@ -55,3 +55,8 @@ for p in products:
 # Güncel fiyatları kaydet
 with open("prices.json", "w", encoding="utf-8") as f:
     json.dump(new_prices, f, ensure_ascii=False, indent=2)
+
+print("=== REFERANS FİYATLAR ===")
+print(old_prices)
+print("=== GÜNCEL FİYATLAR ===")
+print(new_prices)
