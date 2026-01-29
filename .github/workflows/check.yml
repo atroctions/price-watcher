@@ -2,7 +2,7 @@ name: Price Watcher
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # 30 dakikada bir çalışır
+    - cron: "*/1 * * * *"   # 30 dakikada bir çalışır
   workflow_dispatch:
 
 jobs:
