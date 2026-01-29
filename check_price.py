@@ -3,6 +3,13 @@ import json
 import os
 from bs4 import BeautifulSoup
 
+def telegram_gonder(mesaj):
+    requests.post(
+        f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+        data={"chat_id": CHAT_ID, "text": mesaj}
+    )
+
+# 👇 TEST MESAJI BURADA
 telegram_gonder("🧪 TEST MESAJI: Sistem çalışıyor")
 
 
