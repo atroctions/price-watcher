@@ -3,6 +3,9 @@ import json
 import os
 from bs4 import BeautifulSoup
 
+telegram_gonder("🧪 TEST MESAJI: Sistem çalışıyor")
+
+
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 
