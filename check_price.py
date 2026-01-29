@@ -27,10 +27,6 @@ def fiyat_cek(url, selector):
     return el.text.strip() if el else None
 
 
-# 🧪 TEST MESAJI — SADECE TEST İÇİN
-telegram_gonder("🧪 TEST MESAJI: Sistem çalışıyor")
-
-
 # 📦 Ürün listesini oku
 with open("products.json", "r", encoding="utf-8") as f:
     products = json.load(f)
