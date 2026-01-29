@@ -60,3 +60,9 @@ print("=== REFERANS FİYATLAR ===")
 print(old_prices)
 print("=== GÜNCEL FİYATLAR ===")
 print(new_prices)
+
+print("=== REFERANS FİYATLAR (OLD) ===")
+print(old_prices)
+
+print("=== GÜNCEL FİYATLAR (NEW) ===")
+print(new_prices)
